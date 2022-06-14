@@ -240,6 +240,6 @@ def computeDwellTime(x_gazePoints,y_gazePoints,timestamps,elements,adCounter):
                 lastT = t
             except AttributeError:
                 current = aoi
-                print 'Error'
-                print i
+                print ('Error')
+                print (i)
     return elements
